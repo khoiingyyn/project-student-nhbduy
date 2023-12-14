@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bé GÁI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- contact -->
+    <div class="contact">
+        <div class="contact-info">
+            <div class="contact-hotline">
+                <a href="">Hotline: 0966158666 (8h - 21h30)</a>
+                <a href="" style="padding: 0 0 0 15px;
+                border-left: solid 1px #fff;">Liên hệ hợp tác</a>
+            </div>
+            <div class="contact-search">
+                <a href="">Tìm cửa hàng</a>
+                <a href="" style="padding: 0 0 0 15px;
+                border-left: solid 1px #fff;">Kiểm tra đơn hàng</a>
+                <a href="" style="padding: 0 0 0 15px;
+                border-left: solid 1px #fff;">Mua hàng tại shopify</a>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="boy.html">NAM</a></li>
+                <li> <a href="girl.html">NỮ</a></li>
+                <li> <a href="baby_boy.html">BÉ TRAI</a></li>
+                <li> <a href="baby_girl.html">BÉ GÁI</a></li>
+
+            </ul>
+            <div class="nav-action">
+                <div class="nav-search">
+                    <button class="search-header">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Bạn làm gì...">
+                </div>
+                <div class="nav-user">
+                    <li><a href="./login.html"><i class="fa-solid fa-user"></i></a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- <li id=""><a href=""> <i class="fa-solid fa-user"></i></a>
+                <div class="login-form">
+                    <div class="login-form-content">
+                        <h2>ĐĂNG NHẬP TÀI KHOẢN <span>X Đóng</span></h2>
+                        <form action="">
+                            <p>Nhập email và mật khẩu của bạn:</p>
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Mật khẩu">
+                            <button>Đăng Nhập</button>
+
+                        </form>
+                    </div>
+                </div>
+            </li> -->
+    </div>
+    </div>
+    <div class="slider">
+        <img src="../img/p50.webp" alt="" width="100%" class="slides">
+        <img src="../img/p2.webp" alt="" width="100%" class="slides">
+        <img src="../img/p51.webp" alt="" width="100%" class="slides">
+        <img src="../img/p1.webp" alt="" width="100%" class="slides">
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+    <div id="wrapper">
+        <div class="headline">
+            <h3>SẢN PHẨM BÉ GÁI </h3>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P69.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg005100" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái DSG005100</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">369,000 ₫</div>
+                            <div class="product-price-sale">410,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P70.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg005200" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái DSG005200</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">569,000 ₫</div>
+                            <div class="product-price-sale">700,000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P71.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg004900" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái DSG004900</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">423,000 ₫</div>
+                            <div class="product-price-sale">470,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P72.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-hunter-x-junior-le-petit-armor-collection-dsgh00900"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái DSG004400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">589,500 ₫</div>
+                            <div class="product-price-sale">655,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P73.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-hunter-street-con-gi-dung-do-y2-colletion-rsgh00100"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao bé gái Hunter Core DSMH09400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">463,200 ₫</div>
+                            <div class="product-price-sale">579,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P74.jpg" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-cool-kids-dsg140600"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái Hunter Street Colletion RSGH00100</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">384,500đ</div>
+                            <div class="product-price-sale">400,000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P75.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-biti-s-dsg137000"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái Cool Kids DSG140600</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">472,500 ₫</div>
+                            <div class="product-price-sale">525,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P76.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg004800" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Bé Gái Biti's DSG137000</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">344,000 ₫</div>
+                            <div class="product-price-sale">430,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P77.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg141200" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái Cool Kids DSG140637</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">396,000 ₫</div>
+                            <div class="product-price-sale">440,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P78.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg141800" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Bé Gái Biti's DSG137060</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">400,500 ₫</div>
+                            <div class="product-price-sale">445,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P79.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-tre-em-hunter-junior-dune-otp-real-white-edition-hsg000100"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Bé Gái Biti's DSG137000</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">573,300 ₫</div>
+                            <div class="product-price-sale">585,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P80.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg004400" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái Biti's DSG004400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">388,000 ₫</div>
+                            <div class="product-price-sale">485,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P81.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg004400" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái DSG139100</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">388,000 ₫</div>
+                            <div class="product-price-sale">485,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P82.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-dsg139100" class="Buy-now">Mua
+                            ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái DSG141200</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">324,000 ₫</div>
+                            <div class="product-price-sale">360,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/P83.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/phien-ban-ky-niem-40-nam-giay-the-thao-be-gai-biti-s-hunter-junior-dsgh01200"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Bé Gái DSG1200</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">526,500 ₫</div>
+                            <div class="product-price-sale">585,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p84.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-be-gai-biti-s-hunter-dsgh00400"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Bé Gái DSG141820</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">468,000 ₫</div>
+                            <div class="product-price-sale">585,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    </div>
+    </ul>
+    </div>
+    <footer class="footer">
+        <div class="footer-heading">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Về Bitis</h4>
+                    <ul>
+                        <li><a href="">Về Bitis</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/cau-chuyen-biti-s">Câu chuyện Bitis</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/cau-chuyen-biti-s">Bước tiến phát triển </a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/hoat-dong">Hoạt động</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/lien-he">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Thông tin</h4>
+                    <ul>
+                        <li><a href="https://www.bitis.com.vn/pages/tra-cuu-tinh-trang-don-hang">Trạng thái đơn hàng</a>
+                        </li>
+                        <li><a href="https://www.bitis.com.vn/pages/q-a">Hình thức giao hàng</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/hinh-thuc-thanh-toan">Hình thức thanh toán</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/chinh-sach-doi-tra">Chính sách đổi trả</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/bitis-loyalty">Chính sách khách hàng thân thiết</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Trợ giúp</h4>
+                    <ul>
+                        <li><a href="https://tuyendung.bitis.com.vn/">Tuyển Dụng</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/he-thong-cua-hang">Hệ thống cửa hàng</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/lien-he-hop-tac">Liên hệ hợp tác</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/q-a">Q&A</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

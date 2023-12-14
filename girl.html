@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NỮ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- contact -->
+    <div class="contact">
+        <div class="contact-info">
+            <div class="contact-hotline">
+                <a href="">Hotline: 0966158666 (8h - 21h30)</a>
+                <a href="" style="padding: 0 0 0 15px;
+                border-left: solid 1px #fff;">Liên hệ hợp tác</a>
+            </div>
+            <div class="contact-search">
+                <a href="">Tìm cửa hàng</a>
+                <a href="" style="padding: 0 0 0 15px;
+                border-left: solid 1px #fff;">Kiểm tra đơn hàng</a>
+                <a href="" style="padding: 0 0 0 15px;
+                border-left: solid 1px #fff;">Mua hàng tại shopify</a>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="boy.html">NAM</a></li>
+                <li> <a href="girl.html">NỮ</a></li>
+                <li> <a href="baby_boy.html">BÉ TRAI</a></li>
+                <li> <a href="baby_girl.html">BÉ GÁI</a></li>
+
+            </ul>
+            <div class="nav-action">
+                <div class="nav-search">
+                    <button class="search-header">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Bạn làm gì...">
+                </div>
+                <div class="nav-user">
+                    <li><a href="./login.html"><i class="fa-solid fa-user"></i></a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- <li id=""><a href=""> <i class="fa-solid fa-user"></i></a>
+                <div class="login-form">
+                    <div class="login-form-content">
+                        <h2>ĐĂNG NHẬP TÀI KHOẢN <span>X Đóng</span></h2>
+                        <form action="">
+                            <p>Nhập email và mật khẩu của bạn:</p>
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Mật khẩu">
+                            <button>Đăng Nhập</button>
+
+                        </form>
+                    </div>
+                </div>
+            </li> -->
+    </div>
+    </div>
+    <div class="slider">
+        <img src="../img/p32.webp" alt="" width="100%" class="slides">
+        <img src="../img/p2.webp" alt="" width="100%" class="slides">
+        <img src="../img/p34.webp" alt="" width="100%" class="slides">
+        <img src="../img/p1.webp" alt="" width="100%" class="slides">
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+    <div id="wrapper">
+        <div class="headline">
+            <h3>SẢN PHẨM NỮ</h3>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p35.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/phien-ban-ky-niem-40-nam-giay-the-thao-nu-hunter-x-dswh09700"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Cao Cấp Nữ Biti's Hunter X Layered Upper
+                            DSWH02800</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">827,100 ₫ </div>
+                            <div class="product-price-sale">919,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p36.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-hunter-x-x-nite-22-collection-dswh10500"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Nữ Hunter X Dune DSWH10701</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">1,103,200 ₫</div>
+                            <div class="product-price-sale"> 1,379,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p37.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-hunter-x-dune-dswh10701"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Hunter Street DSWH10400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">815,200 ₫</div>
+                            <div class="product-price-sale"> 1,019,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p38.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-hunter-street-dswh10400"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Hunter Street DSWH10400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">636,000 ₫</div>
+                            <div class="product-price-sale"> 795,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p39.jpg" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-hunter-core-meteor-collection-dswh10800"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Nữ Hunter Core - Meteor Collection DSWH10800</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">628,000 ₫ </div>
+                            <div class="product-price-sale">785,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p40.jpg" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-hunter-core-dswh09400"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Hunter Core DSWH09400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">679,200 ₫ </div>
+                            <div class="product-price-sale">849,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p41.webp" alt="">
+                        </a>
+                        <a href="" class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Biti's Hunter X Cut-Out DSWH08900</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">815,200 ₫</div>
+                            <div class="product-price-sale"> 1,019,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p42.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-biti-s-hunter-x-liteplex-dswh09800"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Biti's Hunter X LITEPLEX DSWH09800</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">815,200 ₫</div>
+                            <div class="product-price-sale"> 1,019,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p43.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-hunter-x-dune-otp-real-edition-hsw001200"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Hunter X - Dune OTP Real edition HSW001200</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">1,253,420 ₫</div>
+                            <div class="product-price-sale"> 1,279,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p10.webp" alt="">
+                        </a>
+                        <a href="" class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name">Giày Thể Thao Nữ Hunter X - SPIKY COLLAR Collection
+                            DSWH10600</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">851,620 ₫</div>
+                            <div class="product-price-sale">869,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p47.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-biti-s-hunter-x-wavy-collection-hsw001400"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Biti's Hunter X Wavy Collection HSW001400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">998,620 ₫</div>
+                            <div class="product-price-sale">1,019,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p48.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-biti-s-hunter-x-1-0-festive-armor-phien-ban-doc-quyen-dswh07701"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Biti's Hunter X 1.0 Festive Armor</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">815,200 ₫</div>
+                            <div class="product-price-sale">1,019,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p45.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-biti-s-hunter-core-z-collection-dswh06400"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Biti’s Hunter Core Z Collection DSWH06400</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">615,200 ₫</div>
+                            <div class="product-price-sale">769,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p44.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-hunter-street-x-vietmax-vietnam-arising-dswh05502"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Hunter Street x VietMax Vietnam Arising
+                            DSWH05502</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">1,255,200 ₫</div>
+                            <div class="product-price-sale">1,569,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p6.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-cao-cap-nu-biti-s-hunter-core-dswh05000"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Cao Cấp Nữ Biti's Hunter Core DSWH05000</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">628,000 ₫</div>
+                            <div class="product-price-sale">785,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="../img/p52.webp" alt="">
+                        </a>
+                        <a href="https://www.bitis.com.vn/products/giay-the-thao-nu-biti-s-hunter-x-festive-dswh03500"
+                            class="Buy-now">Mua ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat"> Shoes</a>
+                        <a href="" class="product-name"> Giày Thể Thao Nữ Biti's Hunter X Festive DSWH03500</a>
+                        <div class="product-price">
+                            <div class="product-price-none-sale">827,100 ₫</div>
+                            <div class="product-price-sale">919,000 ₫</div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    </ul>
+    </div>
+    <footer class="footer">
+        <div class="footer-heading">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Về Bitis</h4>
+                    <ul>
+                        <li><a href="">Về Bitis</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/cau-chuyen-biti-s">Câu chuyện Bitis</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/cau-chuyen-biti-s">Bước tiến phát triển </a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/hoat-dong">Hoạt động</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/lien-he">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Thông tin</h4>
+                    <ul>
+                        <li><a href="https://www.bitis.com.vn/pages/tra-cuu-tinh-trang-don-hang">Trạng thái đơn hàng</a>
+                        </li>
+                        <li><a href="https://www.bitis.com.vn/pages/q-a">Hình thức giao hàng</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/hinh-thuc-thanh-toan">Hình thức thanh toán</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/chinh-sach-doi-tra">Chính sách đổi trả</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/bitis-loyalty">Chính sách khách hàng thân thiết</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Trợ giúp</h4>
+                    <ul>
+                        <li><a href="https://tuyendung.bitis.com.vn/">Tuyển Dụng</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/he-thong-cua-hang">Hệ thống cửa hàng</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/lien-he-hop-tac">Liên hệ hợp tác</a></li>
+                        <li><a href="https://www.bitis.com.vn/pages/q-a">Q&A</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
